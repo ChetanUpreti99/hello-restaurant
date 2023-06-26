@@ -1,0 +1,29 @@
+{
+	"name": "hello-restaurants",
+	"version": "1.0.0",
+	"description": "Restaurants App",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"start": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"keywords": [
+		"React"
+	],
+	"author": "Chetan Upreti",
+	"license": "ISC",
+	"dependencies": {
+		"lodash": "^4.17.21",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.11.2"
+	},
+	"devDependencies": {
+		"parcel": "^2.8.3",
+		"process": "^0.11.10"
+	},
+	"browserslist": [
+		"last 2 versions"
+	]
+}
